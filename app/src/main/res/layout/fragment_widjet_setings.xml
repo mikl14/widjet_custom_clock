@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".widjet_setings">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/Clock_example"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="12:00"
+                android:textSize="96sp"
+                app:fontFamily="sans-serif" />
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/buttonColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Font" />
+
+        <Button
+            android:id="@+id/Choose_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openfilechooser"
+            android:text="Choose_photo" />
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
