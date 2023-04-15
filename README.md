@@ -1,5 +1,5 @@
-# widjet_custom_clock
- App to make custom clock widjets
+# widget_custom_clock
+ App to make custom clock widgets
  
 Example: 
 
